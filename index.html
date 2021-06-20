@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de Dano - RPG</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+    <body onload="iniciar()">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo" widht="150" height="150"/>
+        </div>
+        <div class="calculadora-dano">
+            <div class="linha-container">
+                <h1 class="titulo pula-linha">Calculadora de Dano</h1>
+            </div>
+
+            <div class="linha-container">
+                <h2>Selecione um inimigo</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento personagem" id="Goomba">
+                    <img src="img/goomba.png" alt="Goomba" width="200" height="200"/>
+                    <p>Goomba</p>
+                </div>
+                <div class="elemento personagem" id="Wario">
+                    <img src="img/wario.png" alt="Wario" width="200" height="200"/>
+                    <p>Wario</p>
+                </div>
+                <div class="elemento personagem" id="Bowser">
+                    <img src="img/bowser.png" alt="Bowser" width="200" height="200"/>
+                    <p>Bowser</p>
+                </div>
+            </div>
+
+            <div class="linha-container">
+                <h2>Selecione um ataque</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento arma" id="cogumelo">
+                    <img src="img/cogumelo2.png" alt="Cogumelo" width="200" height="200"/>
+                    <p>Cogumelo</p>
+                </div>
+                <div class="elemento arma" id="estrela">
+                    <img src="img/estrela2.png" alt="Estrela" width="200" height="200"/>
+                    <p>Estrela</p>
+                </div>
+                <div class="elemento arma" id="flor">
+                    <img src="img/flor.png" alt="Flor" width="200" height="200"/>
+                    <p>Flor</p>
+                </div>
+            </div>
+
+            <div class="linha-container">
+                <button id="calcular" type="button">Calcular Dano</button>
+            </div>
+        </div>
+    </body>
+</html>
